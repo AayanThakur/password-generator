@@ -1,16 +1,63 @@
-# React + Vite
+# 🔐 Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple password generator built with **React** that generates random passwords based on the selected options.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Generate random passwords
+* Adjust password length
+* Include numbers
+* Include characters
+* Copy the generated password to the clipboard
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Password Generator Preview](./password-generator.png)
+
+## ⚙️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/AayanThakur/password-generator.git
+```
+
+### 2. Navigate to the project
+
+```bash
+cd password-generator
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+## 📚 What I Learned
+
+While building this project, I practiced:
+
+* React `useState`
+* Event handling
+* Managing state
+* Working with input values
+* Generating random passwords
+* Conditional logic
+* Updating the UI based on state
+* Copying text to the clipboard
+
+## 👨‍💻 About This Project
+
+This project was built as part of my journey learning React and practicing React fundamentals through a small, functional application.
+
